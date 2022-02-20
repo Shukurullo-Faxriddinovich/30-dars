@@ -1,12 +1,14 @@
-var a = prompt("yo'l xaqini kiriting? ($)");
-var b = prompt("Mehmonxona to'lovi kiriting? ($)");
-var c = prompt("qoshimcha sarf xarajat uchun summa kiriting? (yevro)");
+
 var mony = prompt("Pulingizni kiriting? (so'm)");
 console.log(mony + " so'm");
 
-var x = (a * 10.900);
-var y = (b * 10.900);
-var z = (c * 12272,64);
+const a = (500);
+const b = (250);
+const c = (120);
+
+var x = (a * 10900);
+var y = (b * 10900);
+var z = (c * 12273);
 
 const d = Number((x + y + z));
 
