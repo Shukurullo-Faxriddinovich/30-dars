@@ -15,6 +15,12 @@ const d = Number((x + y + z));
 if (mony >= d){
   console.log("Oq yo'l, Alisher!");
 }
+else if(mony < 0){
+  console.log("qarizga ketmoqchimisiz ?");
+}
+else if(" "){
+  console.log("aldolmisan meni");
+}
 else{
   console.log("Alisher, ozgina sabr qilish kerak bo'lar ekan.");
 }
